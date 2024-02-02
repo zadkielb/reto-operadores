@@ -1,0 +1,21 @@
+const numero1=8;
+const numero2=3;
+const objeto1="hola";
+const objeto2="hello";
+let texto1="uno";
+let texto2="dos";
+console.log("El numero 1 es mayor que el numero 2?",numero1>numero2);
+console.log("El numero 1 es menor que el numero 2?",numero1<numero2);
+console.log("El numero 1 es igual al numero 2?",numero1 === numero2);
+console.log("El texto 1 es igual al texto 2?",texto1===texto2);
+console.log("Los objetos son iguales?",objeto1===objeto2);
+console.log("AND logico:",objeto1 ==="hola" &&objeto2==="alo");
+console.log("OR logico:",objeto1=== "hola"||objeto2 ==="hola");
+
+let a=10;
+let b=3;
+console.log("La suma de 10+3 es",a+b);
+console.log("la resta de 10-3 es",a-b);
+console.log("la multiplicacion de 10*3 es",a*b);
+console.log("la division de 10/3 es",a/b);
+console.log("10 modulo de 3 es",a%b);
